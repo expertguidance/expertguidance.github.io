@@ -17,6 +17,8 @@ background-color: rgb(240,255,255);
 #logo{
 float:left;
 margin:20px 20px 20px 20px;
+width:100px;
+height:100px;
 }
 
 #rcorner {
@@ -26,9 +28,19 @@ margin:20px 20px 20px 20px;
     padding: 20px;
     width: 500px;
     height: 50px;
+	box-shadow: 10px 10px 5px #000;
 }
 #contentpadding {
 padding:20px 20px 20px 20px;
+box-shadow: 10px 10px 5px #000;
+}
+
+#classroom {
+float: right;
+width:300px;
+height:150px;
+padding-right: 30px;
+padding-left: 1px;
 }
 
 
@@ -36,11 +48,13 @@ archi {
     
     background-color: rgb(255, 240, 255);
     padding-top: 20px;
-    padding-right: 50px;
+    padding-right: 5px;
     padding-bottom: 20px;
-    padding-left: 90px;
+    padding-left: 5px;
 }
-archi.double {border-style: double;}
+archi.double {
+border-style: double; 
+box-shadow: 10px 10px 5px rgb(142, 103, 0);}
 
 h1{
 color: rgb(142, 103, 0);
@@ -64,6 +78,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+box-shadow: 10px 10px 5px #000;
 }
 
 li a:hover:not(.active) {
@@ -83,11 +98,14 @@ li a:hover:not(.active) {
 <body>	
 	
 		<img id="logo" src="eg.png" alt="Expert Guidance logo" />
+		<img id="classroom" src="classroom.png" alt="Classroom logo" />
 		<h1 style="font-size:250%;"> 
-			<archi class="double"> EXPERT GUIDANCE ... <em> Experience Guidance</em><archi>
+			<archi class="double"> EXPERT GUIDANCE ... <em> experience the guidance </em><archi><br/>
 		</h1>
-
-			<h3><i>Sweat Today, Shape Tomorrow.....</i></h3><br><br>
+			
+			<h3><i>Sweat Today, Shape Tomorrow.....</i></h3>
+		
+		<br><br>
 	    	<ul>
         		<li><a class="active" href="/">Home</a></li>
 	        	<li><a href="#">Courses</a></li>
